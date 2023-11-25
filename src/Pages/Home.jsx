@@ -7,7 +7,7 @@ const MainContainer = styled.div`
 const Home = () => {
   return (
     <MainContainer>
-           
+           Home
     </MainContainer>
   )
 }

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const MainContainer = styled.div`
+       background-color: #7a7a7a;
        width: 100%;
        height: 10vh;
 
@@ -10,6 +11,8 @@ const MainContainer = styled.div`
 
        font-size: larger;
        font-weight: bold;
+
+       
 `;
 
 const NavbarButton = styled.div`
