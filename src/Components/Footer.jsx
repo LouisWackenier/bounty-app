@@ -1,8 +1,18 @@
-import React from 'react'
+import styled from 'styled-components';
+
+const MainContainer = styled.div`
+    display: flex;
+`;
+
+const FooterText = styled.h3`
+    justify-content: flex-end;
+`;
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <MainContainer>
+          <FooterText>Footer comes here</FooterText>
+    </MainContainer>
   )
 }
 
