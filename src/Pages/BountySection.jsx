@@ -1,8 +1,7 @@
-import React from 'react'
 
 const BountySection = () => {
   return (
-    <div>BountySection</div>
+    <div>This page is gonna show all the bounties</div>
   )
 }
 
