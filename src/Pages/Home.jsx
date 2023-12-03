@@ -12,13 +12,17 @@ const MainTitle = styled.div`
      padding-top: 10vh;
 `;
 
+
 const BountiesButton = styled.div`
+      height: 100px;
+      width: 300px;
+      background-color: darkgray;
       cursor: pointer;
-      text-align: center;
-      display: block;
 `;
 
 const ProfileButton = styled.div`
+      padding: 100px 100px 50px 100px;
+      background-color: darkgray;
       cursor: pointer;
       text-align: center;
 `;
@@ -27,8 +31,8 @@ const Home = () => {
   return (
     <MainContainer>
            <MainTitle>Welcome</MainTitle>
-           <BountiesButton>Bounties</BountiesButton>
-           <ProfileButton>Profile</ProfileButton>
+             <BountiesButton>Bounties</BountiesButton>
+             <ProfileButton>Profile</ProfileButton>
     </MainContainer>
   )
 }
