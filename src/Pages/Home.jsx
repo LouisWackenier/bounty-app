@@ -12,27 +12,38 @@ const MainTitle = styled.div`
      padding-top: 10vh;
 `;
 
-
+const ButtonContainer = styled.div`
+     display: flex;
+     margin-left: 45vw;
+`;
 const BountiesButton = styled.div`
-      height: 100px;
-      width: 300px;
+      color: black;
       background-color: darkgray;
       cursor: pointer;
+
+      width: 5vw;
+      height: 4vh;
 `;
 
 const ProfileButton = styled.div`
-      padding: 100px 100px 50px 100px;
+      padding-left: 4vw;
+      color: black;
       background-color: darkgray;
       cursor: pointer;
-      text-align: center;
+
+      width: 5vw;
+      height: 4vh;
 `;
 
 const Home = () => {
   return (
     <MainContainer>
            <MainTitle>Welcome</MainTitle>
-             <BountiesButton>Bounties</BountiesButton>
-             <ProfileButton>Profile</ProfileButton>
+           <ButtonContainer>
+               <BountiesButton>Bounties</BountiesButton>
+               <ProfileButton>Profile</ProfileButton>
+           </ButtonContainer>
+             
     </MainContainer>
   )
 }
