@@ -48,10 +48,16 @@ const ProfileButton = styled.div`
       }
 `;
 
+const SubTitle = styled.div`
+       font-size: 3vh;
+       text-align: center;
+`;
+
 const Home = () => {
   return (
     <MainContainer>
            <MainTitle>Welcome</MainTitle>
+           <SubTitle>Get your bounties here</SubTitle>
            <ButtonContainer>
                <BountiesButton>Bounties</BountiesButton>
                <ProfileButton>Profile</ProfileButton>

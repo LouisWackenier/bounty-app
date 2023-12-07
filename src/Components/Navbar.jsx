@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+//REACT ROUTER DOM
+import { Link } from 'react-router-dom';
+
 const MainContainer = styled.div`
        background-color: #7a7a7a;
        width: 100%;
@@ -36,9 +39,15 @@ const Navbar = () => {
   return (
     <div>
         <MainContainer>
-                  <NavbarButton>Home</NavbarButton>
-                  <NavbarButton>Bounties</NavbarButton>
+                <Link to="/">
+                   <NavbarButton>Home</NavbarButton>
+                </Link>
+                <Link to="BountySection">
+                   <NavbarButton>Bounties</NavbarButton>
+                </Link>
+                <Link to="Login">
                   <LoginButton>Login</LoginButton>
+                </Link>
         </MainContainer>
     </div>
   )

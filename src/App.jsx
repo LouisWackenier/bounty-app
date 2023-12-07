@@ -7,14 +7,19 @@ import Profile from './Pages/Profile';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
+//REACT ROUTER DOM
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <>
      <Navbar />
-      <Home />
-      <Login/>
-      <BountySection/>
-      <Profile/>
+      <Routes>
+        <Route path="/" element={<Home />}/>  
+        <Route path="/Login" element={<Login />}/> 
+        <Route path="/BountySection" element={<BountySection/>}/>
+        <Route path="/Profile" element={<Profile/>}/>
+      </Routes>
      <Footer />
     </>
   )
