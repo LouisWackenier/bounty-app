@@ -14,25 +14,38 @@ const MainTitle = styled.div`
 
 const ButtonContainer = styled.div`
      display: flex;
-     margin-left: 45vw;
+     margin-left: 38vw;
+     text-align: center;
 `;
 const BountiesButton = styled.div`
       color: black;
       background-color: darkgray;
       cursor: pointer;
+      
+      padding-top: 10px;
+      width: 150px;
+      height: 40px;
+      border-radius: 5px;
 
-      width: 5vw;
-      height: 4vh;
+      &:hover {
+            background-color: white;
+      }
 `;
 
 const ProfileButton = styled.div`
-      padding-left: 4vw;
       color: black;
       background-color: darkgray;
       cursor: pointer;
+      margin-left: 5vw;
 
-      width: 5vw;
-      height: 4vh;
+      padding-top: 10px;
+      width: 150px;
+      height: 40px;
+      border-radius: 5px;
+
+      &:hover {
+            background-color: white;
+      }
 `;
 
 const Home = () => {
@@ -43,7 +56,6 @@ const Home = () => {
                <BountiesButton>Bounties</BountiesButton>
                <ProfileButton>Profile</ProfileButton>
            </ButtonContainer>
-             
     </MainContainer>
   )
 }
