@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
+//REACT ROUTER DOM
+import { Link } from 'react-router-dom';
+
 const MainContainer = styled.div`
-      height: 100vh;
+      height: 80vh;
       display: grid;
 `;
 
@@ -59,8 +62,8 @@ const Home = () => {
            <MainTitle>Welcome</MainTitle>
            <SubTitle>Get your bounties here</SubTitle>
            <ButtonContainer>
-               <BountiesButton>Bounties</BountiesButton>
-               <ProfileButton>Profile</ProfileButton>
+               <Link to="BountySection"><BountiesButton>Bounties</BountiesButton></Link>
+               <Link to="Profile"><ProfileButton>Profile</ProfileButton></Link>
            </ButtonContainer>
     </MainContainer>
   )

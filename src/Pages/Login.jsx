@@ -1,8 +1,14 @@
-import React from 'react'
+import styled from "styled-components";
+
+const MainContainer  = styled.div`
+         height: 80vh;
+`;
 
 const Login = () => {
   return (
-    <div>Here is gonna be the Login section</div>
+    <MainContainer>
+        Here is gonna be the Login section
+    </MainContainer>
   )
 }
 
