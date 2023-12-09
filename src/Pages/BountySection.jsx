@@ -4,9 +4,25 @@ const MainContainer = styled.div`
       height: 80vh;
 `;
 
+const BountyContainer = styled.div`
+      width: 250px;
+      height: 300px;
+      background-color: gray;
+
+      margin-left: 5vw;
+      margin-top: 5vh;
+
+
+`;
+
 const BountySection = () => {
   return (
-    <MainContainer>This page is gonna show all the bounties</MainContainer>
+    <MainContainer>
+         {/*Bounty comes here*/}   
+         <BountyContainer>
+
+         </BountyContainer>
+    </MainContainer>
   )
 }
 
