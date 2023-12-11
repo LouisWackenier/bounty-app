@@ -27,7 +27,7 @@ const BountyPicture = styled.div`
 
       background-color: gray;
       color: black;
-      font-weight: 700;
+      font-weight: 500;
 `;
 
 const BountyPriceSelect = styled.div`
