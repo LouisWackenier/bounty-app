@@ -11,7 +11,7 @@ const FooterText = styled.h3`
 const Footer = () => {
   return (
     <MainContainer>
-          <FooterText>Footer comes here</FooterText>
+          <FooterText>Louis Wackenier@All rights reserved 2023</FooterText>
     </MainContainer>
   )
 }
