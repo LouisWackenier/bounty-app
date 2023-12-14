@@ -45,7 +45,7 @@ const BountySection = () => {
          <BountyContainer>
                <BountyPicture>Image goes here</BountyPicture>
                <BountyPrice>100</BountyPrice>
-               <BountyPriceSelect>Select the price</BountyPriceSelect>
+               <BountyPriceSelect>Select the bounty price</BountyPriceSelect>
          </BountyContainer>
     </MainContainer>
   )

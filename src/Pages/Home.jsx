@@ -19,6 +19,7 @@ const ButtonContainer = styled.div`
      display: flex;
      margin-left: 38vw;
      text-align: center;
+     font-weight: 1000;
 `;
 const BountiesButton = styled.div`
       color: black;
