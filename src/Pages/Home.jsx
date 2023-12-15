@@ -12,7 +12,7 @@ const MainTitle = styled.div`
      font-weight: 800;
      font-size: 3rem;
      text-align: center;
-     padding-top: 10vh;
+     padding-top: 5vh;
 `;
 
 const ButtonContainer = styled.div`
@@ -61,7 +61,7 @@ const Home = () => {
   return (
     <MainContainer>
            <MainTitle>Welcome</MainTitle>
-           <SubTitle>Get your bounties here</SubTitle>
+           <SubTitle>Claim/Collect your bounties here</SubTitle>
            <ButtonContainer>
                <Link to="BountySection"><BountiesButton>Bounties</BountiesButton></Link>
                <Link to="Profile"><ProfileButton>Profile</ProfileButton></Link>
