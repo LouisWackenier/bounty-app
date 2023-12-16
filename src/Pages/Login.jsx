@@ -15,6 +15,10 @@ const FormPassword = styled.form`
       border-radius: 10px;
       width: 300px;
       padding: 1vh;
+
+      &:hover {
+            border-radius: 20px;
+      }
 `;
 
 const FormUsername = styled.form`
@@ -23,6 +27,10 @@ const FormUsername = styled.form`
       border-radius: 10px;
       width: 300px;
       padding: 1vh;
+
+      &:hover {
+            border-radius: 20px;
+      }
 `;
 
 const FormEmail = styled.form`
@@ -30,7 +38,11 @@ const FormEmail = styled.form`
       border: 2px solid white;
       border-radius: 10px;
       width: 300px;
-      padding: 1vh;
+      padding: 1vh; 
+
+      &:hover {
+            border-radius: 20px;
+      }
 `;
 
 const Login = () => {
