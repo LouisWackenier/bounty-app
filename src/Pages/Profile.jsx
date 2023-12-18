@@ -1,25 +1,28 @@
 import styled from "styled-components";
 
 const MainContainer = styled.div`
-      height: 80vh;
+      height: 70vh;
+      display: block;
+      margin-left: 47vw;
 `;
 
-const profilePicture = styled.div`
+const ProfilePicture = styled.div`
       width: 150px;
       height: 150px;
       background-color: gray;
       border-radius: 50%;
+      margin-top: 10vh;
 `;
 
-const profileName = styled.div`
-      
+const ProfileName = styled.div`
+      margin-left: 40px;
 `;
 
 const Profile = () => {
   return (
     <MainContainer>
-           <profilePicture>pfp</profilePicture>
-           <profileName>John Doe</profileName>
+           <ProfilePicture></ProfilePicture>
+           <ProfileName>John Doe</ProfileName>
     </MainContainer>
   )
 }
