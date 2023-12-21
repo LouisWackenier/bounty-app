@@ -16,6 +16,7 @@ const ProfilePicture = styled.div`
 
 const ProfileName = styled.div`
       margin-left: 40px;
+      font-weight: 700;
 `;
 
 const Profile = () => {
