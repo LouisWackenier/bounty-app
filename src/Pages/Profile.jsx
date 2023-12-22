@@ -19,11 +19,23 @@ const ProfileName = styled.div`
       font-weight: 700;
 `;
 
+const Email = styled.div`
+     
+`;
+
+const Statistics = styled.div`
+
+`;
+
 const Profile = () => {
   return (
     <MainContainer>
            <ProfilePicture></ProfilePicture>
            <ProfileName>John Doe</ProfileName>
+           <Email>Email comes here</Email>
+           <Statistics>Bounty stats</Statistics>
+           <Statistics>Bounties collected: 10</Statistics>
+           <Statistics>Current Bounty: 3</Statistics>
     </MainContainer>
   )
 }
