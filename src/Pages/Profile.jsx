@@ -27,6 +27,10 @@ const Statistics = styled.div`
 
 `;
 
+const Friends = styled.div`
+
+`;
+
 const Profile = () => {
   return (
     <MainContainer>
@@ -35,7 +39,8 @@ const Profile = () => {
            <Email>Email comes here</Email>
            <Statistics>Bounty stats</Statistics>
            <Statistics>Bounties collected: 10</Statistics>
-           <Statistics>Current Bounty: 3</Statistics>
+           <Statistics>Current Bounty: 3$</Statistics>
+           <Friends>Friend List</Friends>
     </MainContainer>
   )
 }
