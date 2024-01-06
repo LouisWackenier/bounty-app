@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const MainContainer = styled.div`
       height: 80vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
 `;
 
 const BountyContainer = styled.div`
@@ -41,6 +43,30 @@ const BountyPriceSelect = styled.div`
 const BountySection = () => {
   return (
     <MainContainer>
+         {/*Bounty comes here*/}   
+         <BountyContainer>
+               <BountyPicture>Image goes here</BountyPicture>
+               <BountyPrice>100$</BountyPrice>
+               <BountyPriceSelect>Select the bounty price</BountyPriceSelect>
+         </BountyContainer>
+         {/*Bounty comes here*/}   
+         <BountyContainer>
+               <BountyPicture>Image goes here</BountyPicture>
+               <BountyPrice>100$</BountyPrice>
+               <BountyPriceSelect>Select the bounty price</BountyPriceSelect>
+         </BountyContainer>
+         {/*Bounty comes here*/}   
+         <BountyContainer>
+               <BountyPicture>Image goes here</BountyPicture>
+               <BountyPrice>100$</BountyPrice>
+               <BountyPriceSelect>Select the bounty price</BountyPriceSelect>
+         </BountyContainer>
+         {/*Bounty comes here*/}   
+         <BountyContainer>
+               <BountyPicture>Image goes here</BountyPicture>
+               <BountyPrice>100$</BountyPrice>
+               <BountyPriceSelect>Select the bounty price</BountyPriceSelect>
+         </BountyContainer>
          {/*Bounty comes here*/}   
          <BountyContainer>
                <BountyPicture>Image goes here</BountyPicture>
