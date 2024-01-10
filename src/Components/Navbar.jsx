@@ -15,13 +15,14 @@ const MainContainer = styled.div`
        font-size: larger;
        font-weight: bold;
 
-       
+       transition: color 0.5s;
 `;
 
 const NavbarButton = styled.div`
     &:hover {
       cursor: pointer;
       text-decoration: underline;
+      color: darkgray;
   }
 
 `;
@@ -30,6 +31,7 @@ const LoginButton = styled.div`
    &:hover {
       cursor: pointer;
       text-decoration: underline;
+      color: darkgray;
   }
 `;
 

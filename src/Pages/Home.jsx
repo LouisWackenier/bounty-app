@@ -31,6 +31,8 @@ const BountiesButton = styled.div`
       height: 40px;
       border-radius: 5px;
 
+      transition: background-color 0.5s;
+
       &:hover {
             background-color: white;
       }
@@ -46,6 +48,8 @@ const ProfileButton = styled.div`
       width: 150px;
       height: 40px;
       border-radius: 5px;
+
+      transition: background-color 0.5s;
 
       &:hover {
             background-color: white;
