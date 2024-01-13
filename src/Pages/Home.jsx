@@ -32,9 +32,11 @@ const BountiesButton = styled.div`
       border-radius: 5px;
 
       transition: background-color 0.5s;
+      transition: color 0.5s;
 
       &:hover {
             background-color: white;
+            color: gray;
       }
 `;
 
@@ -50,9 +52,11 @@ const ProfileButton = styled.div`
       border-radius: 5px;
 
       transition: background-color 0.5s;
+      transition: color 0.5s;
 
       &:hover {
             background-color: white;
+            color: gray;
       }
 `;
 
