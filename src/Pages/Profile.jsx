@@ -36,7 +36,7 @@ const Profile = () => {
     <MainContainer>
            <ProfilePicture></ProfilePicture>
            <ProfileName>John Doe</ProfileName>
-           <Email>Email comes here</Email>
+           <Email>Email: JohnDoe@something.com</Email>
            <Statistics>Bounty stats</Statistics>
            <Statistics>Bounties collected: 10</Statistics>
            <Statistics>Current Bounty: 3$</Statistics>

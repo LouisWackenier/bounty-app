@@ -15,19 +15,22 @@ const MainContainer = styled.div`
        font-size: larger;
        font-weight: bold;
 
-       transition: color 0.5s;
+       
 `;
 
 const NavbarButton = styled.div`
+    transition: color 0.5s;
+
     &:hover {
       cursor: pointer;
       text-decoration: underline;
       color: darkgray;
   }
-
 `;
 
 const LoginButton = styled.div`
+   transition: color 0.5s;
+
    &:hover {
       cursor: pointer;
       text-decoration: underline;
