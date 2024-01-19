@@ -2,10 +2,14 @@ import styled from 'styled-components';
 
 const MainContainer = styled.div`
     display: flex;
+    position: fixed;
+    bottom: 0%;
+    background-color: transparent;
 `;
 
 const FooterText = styled.h3`
     justify-content: flex-end;
+    background-color: transparent;
 `;
 
 const Footer = () => {
