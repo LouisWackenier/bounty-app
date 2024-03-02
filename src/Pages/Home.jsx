@@ -24,6 +24,7 @@ const ButtonContainer = styled.div`
 const BountiesButton = styled.div`
       color: black;
       background-color: darkgray;
+      border: 3px solid red;
       cursor: pointer;
       
       padding-top: 10px;
@@ -33,16 +34,19 @@ const BountiesButton = styled.div`
 
       transition: background-color 0.5s;
       transition: color 0.5s;
+      transition: border 0.5s;
 
       &:hover {
             background-color: white;
             color: gray;
+            border: 3px solid white;
       }
 `;
 
 const ProfileButton = styled.div`
       color: black;
       background-color: darkgray;
+      border: 3px solid red;
       cursor: pointer;
       margin-left: 5vw;
 
@@ -53,10 +57,12 @@ const ProfileButton = styled.div`
 
       transition: background-color 0.5s;
       transition: color 0.5s;
+      transition: border 0.5s;
 
       &:hover {
             background-color: white;
             color: gray;
+            border: 3px solid white;
       }
 `;
 
