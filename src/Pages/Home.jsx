@@ -24,7 +24,7 @@ const ButtonContainer = styled.div`
 const BountiesButton = styled.div`
       color: black;
       background-color: darkgray;
-      border: 3px solid red;
+      border: 3px solid darkblue;
       cursor: pointer;
       
       padding-top: 10px;
@@ -46,7 +46,7 @@ const BountiesButton = styled.div`
 const ProfileButton = styled.div`
       color: black;
       background-color: darkgray;
-      border: 3px solid red;
+      border: 3px solid darkblue;
       cursor: pointer;
       margin-left: 5vw;
 
