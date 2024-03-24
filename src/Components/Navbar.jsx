@@ -9,7 +9,7 @@ const MainContainer = styled.div`
        height: 10vh;
 
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-columns: 0.5fr 0.5fr 0.5fr;
        text-align: center;
 
        font-size: larger;
