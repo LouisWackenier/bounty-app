@@ -3,6 +3,21 @@ import styled from 'styled-components';
 //REACT ROUTER DOM
 import { Link } from 'react-router-dom';
 
+const Home = () => {
+  return (
+    <MainContainer>
+           <MainTitle>Welcome</MainTitle>
+           <SubTitle>Claim/Collect your bounties here</SubTitle>
+           <ButtonContainer>
+               <Link to="BountySection"><BountiesButton>Bounties</BountiesButton></Link>
+               <Link to="Profile"><ProfileButton>Profile</ProfileButton></Link>
+           </ButtonContainer>
+    </MainContainer>
+  )
+}
+
+export default Home
+
 const MainContainer = styled.div`
       height: 80vh;
       display: grid;
@@ -70,18 +85,3 @@ const SubTitle = styled.div`
        font-size: 3vh;
        text-align: center;
 `;
-
-const Home = () => {
-  return (
-    <MainContainer>
-           <MainTitle>Welcome</MainTitle>
-           <SubTitle>Claim/Collect your bounties here</SubTitle>
-           <ButtonContainer>
-               <Link to="BountySection"><BountiesButton>Bounties</BountiesButton></Link>
-               <Link to="Profile"><ProfileButton>Profile</ProfileButton></Link>
-           </ButtonContainer>
-    </MainContainer>
-  )
-}
-
-export default Home

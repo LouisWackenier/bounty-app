@@ -14,8 +14,6 @@ const MainContainer = styled.div`
 
        font-size: larger;
        font-weight: bold;
-
-       
 `;
 
 const NavbarButton = styled.div`

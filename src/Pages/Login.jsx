@@ -9,6 +9,10 @@ const FormContainer = styled.div`
     margin-top: 30vh;
 `;
 
+const Context = styled.div`
+    
+`;
+
 const FormPassword = styled.form`
       margin-top: 2vh;
       border: 2px solid white;
@@ -49,9 +53,12 @@ const Login = () => {
   return (
     <MainContainer>
         <FormContainer>
-            <FormEmail>Email</FormEmail>
-             <FormUsername>Username</FormUsername>
+              <FormEmail>Email</FormEmail>
+              <Context>Please give your Email</Context>
+                  <FormUsername>Username</FormUsername>
+                  <Context>Please give your username</Context>
              <FormPassword>Password</FormPassword>
+             <Context>Please give your password</Context>
         </FormContainer>
     </MainContainer>
   )
