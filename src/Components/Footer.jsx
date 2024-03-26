@@ -4,7 +4,9 @@ const MainContainer = styled.div`
     display: flex;
     position: fixed;
     bottom: 0%;
+    width: 100vw;
     background-color: transparent;
+    background-color: black;
 `;
 
 const FooterText = styled.h3`
