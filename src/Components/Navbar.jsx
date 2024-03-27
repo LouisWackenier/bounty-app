@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 const MainContainer = styled.div`
-       background-color: #7a7a7a;
+       background-color: #832121;
        width: 100%;
        height: 10vh;
 
